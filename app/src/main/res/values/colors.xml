@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#eae5e5</color>
+    <color name="Txdeep" >#2e2b2b</color>
+    <color name="Txqian" >#af7979</color>
+    <color name="shiming" >#afa5a5</color>
+    <color name="btn" >#f1eeee</color>
+    <color name="quxiao" >#e1dddd</color>
+    <color name="sure" >#c9852d</color>
+    <color name="colorqu" >#c1b1b1</color>
+
+</resources>

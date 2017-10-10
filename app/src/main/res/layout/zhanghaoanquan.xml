@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="账号安全"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_clear_black_48dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/shouji"
+            android:padding="5dp"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_toRightOf="@+id/shouji"
+            android:text="绑定手机号"
+            android:id="@+id/teshouji"
+            android:padding="5dp"
+            android:textColor="@color/Txdeep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="让你的账号更加安全"
+            android:padding="5dp"
+            android:textColor="@color/Txqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/teshouji"
+            android:layout_toRightOf="@+id/shouji"
+            android:layout_toEndOf="@+id/shouji" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        />
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/shouji1"
+            android:padding="5dp"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_toRightOf="@+id/shouji1"
+            android:text="设置安全邮箱"
+            android:id="@+id/teshouji1"
+            android:padding="5dp"
+            android:textColor="@color/Txdeep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/teshouji1"
+            android:text="xxxxxxxxxxxxxxxxxxxx"
+            android:layout_toRightOf="@+id/shouji1"
+            android:padding="5dp"
+            android:textColor="@color/Txqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        />
+
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/shouji2"
+            android:padding="5dp"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_toRightOf="@+id/shouji2"
+            android:text="更改登录密码"
+            android:id="@+id/teshouji2"
+            android:padding="5dp"
+            android:textColor="@color/Txdeep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/teshouji2"
+            android:text="xxxxxxxxxxxxxxxxxxx"
+            android:layout_toRightOf="@+id/shouji2"
+            android:padding="5dp"
+            android:textColor="@color/Txqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

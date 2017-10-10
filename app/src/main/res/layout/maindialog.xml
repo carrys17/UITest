@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="个人中心"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:onClick="exit"
+            android:id="@+id/exit"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_clear_black_48dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ivzhanghao"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="账号安全"
+            android:layout_below="@+id/ivzhanghao"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+        <View
+            android:background="@color/colorAccent"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            />
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ivzhanghao2"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="礼包"
+            android:layout_below="@+id/ivzhanghao2"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+        <View
+            android:background="@color/colorAccent"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            />
+    <RelativeLayout
+
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ivzhanghao3"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="活动"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ivzhanghao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+        <View
+            android:background="@color/colorAccent"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            />
+    <RelativeLayout
+
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ivzhanghao4"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="消费记录"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ivzhanghao4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/ivzhanghao5"
+                android:src="@drawable/ic_account_circle_black_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="实名认证"
+                android:layout_below="@+id/ivzhanghao5"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <View
+            android:background="@color/colorAccent"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            />
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/ivzhanghao6"
+                android:src="@drawable/ic_account_circle_black_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="检查更新"
+                android:layout_below="@+id/ivzhanghao6"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:background="@color/colorAccent"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            />
+        <RelativeLayout
+
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/ivzhanghao7"
+                android:src="@drawable/ic_account_circle_black_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="客服"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ivzhanghao7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:background="@color/colorAccent"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            />
+        <RelativeLayout
+
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/ivzhanghao8"
+                android:src="@drawable/ic_account_circle_black_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="切换账号"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ivzhanghao8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

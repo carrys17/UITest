@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/faxin"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="发现新版本"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/faxin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="软件版本 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="27dp"
+            android:id="@+id/textView" />
+        <TextView
+            android:text="V1.4.4"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="27dp"
+            android:layout_toRightOf="@id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:text="更新内容 :"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="27dp"
+            android:layout_below="@id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@id/tx2"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="5dp"
+            android:text=" 1、添加用户使用协议\n 2、xxxxxxxxxxxx\n 3、xxxxxxxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+
+        <Button
+            android:id="@+id/quxiao"
+            android:text="稍后再说"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorqu"
+            android:background="@color/quxiao"
+            android:layout_alignBaseline="@+id/sure"
+            android:layout_alignBottom="@+id/sure"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2" />
+        <Button
+            android:id="@+id/sure"
+            android:text="立即更新"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_toRightOf="@id/quxiao"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/sure"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
